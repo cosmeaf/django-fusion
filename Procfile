@@ -1,1 +1,1 @@
-python-3.10.0
+web: gunicorn fusion.wsgi --log-file -
