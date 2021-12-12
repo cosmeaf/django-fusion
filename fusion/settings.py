@@ -130,13 +130,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# E-mail Test Console
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.hostinger.com'
-EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'contato@lexlam.com.br'
-EMAIL_HOST_PASSWORD = 'Canela_32'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+
 
 LOGOUT_REDIRECT_URL = 'index'
